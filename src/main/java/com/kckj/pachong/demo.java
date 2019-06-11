@@ -12,8 +12,7 @@ public class demo {
     public static void main(String[] args) throws Exception{
 
         //获取到网页元素 可通过Jsoup api进行操作
-        Document document = Jsoup.connect("https://www.baidu.com").get();
-        System.out.println(document);
+        Element element = Jsoup.connect("https://www.baidu.com").get();
 
     }
 
